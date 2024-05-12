@@ -1,5 +1,49 @@
 # TypeScript
 
+### To Install TypeScript Globally
+
+npm install -g typescript
+
+### To Create package.json file
+
+npm init
+
+### To Install lite-server 
+
+npm install lite-server --save-dev
+
+### To Run TypeScript application
+
+npm start
+
+### In package.json file
+
+"scripts": {
+"start": "lite-server"
+},
+
+### To Create tsconfig file that compile all ts file
+
+tsc --init
+
+
+### To Compile all ts file
+
+tsc
+
+### To Compile Single file
+
+tsc app.ts
+
+### To run application
+
+npm start
+
+<hr/>
+
+
+
+
 ### Why TypeScript?
 
 Take a look at the JS code below. It doesn't throw an error and gives us a valid output even when we perform invalid operations. To solve such problems TypeScript comes to our rescue by introducing types.
